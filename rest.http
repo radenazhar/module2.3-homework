@@ -1,8 +1,0 @@
-POST http://localhost:3000.add-song
-Content-Type: application/json
-
-{
-    "title" : "Aku Milikmu",
-    "artists" : "Dewa 19",
-    "spotifyUrl" : "https://open.spotify.com/track/0OVcoOK5WVvE6D9CXkopa9?si=7b5912fd525d4ae4"
-}
