@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 const port = 3000;
-const bodyParser = require('body-parser');
-import Playlist from './models/_playlistModel';
+import bodyParser from 'body-parser';
+
+import Playlist from './models/_playlistModel.js';
 
 
 app.use(bodyParser.json());
